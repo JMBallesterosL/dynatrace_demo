@@ -1,0 +1,18 @@
+--- 
+- 
+  host: all
+  name: "easyTravel recovery action"
+  tasks: 
+    - 
+      debug: 
+        msg: "easyTravel app problem detected, trying to recover!"
+      name: Open
+      when: "state == \"OPEN\""
+    - 
+      debug: 
+        msg: "easyTravel app recovered"
+      name: Resolved
+      when: "state == \"RESOLVED\""
+    - 
+      command: date
+      name: "Check the date on the server."
