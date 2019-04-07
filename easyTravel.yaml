@@ -1,7 +1,6 @@
 --- 
-- 
+- name: "easyTravel recovery action"
   host: all
-  name: "easyTravel recovery action"
   tasks: 
     - 
       debug: 
