@@ -1,3 +1,4 @@
+---
 - name: easyTravel recovery action
   host: all
   tasks: 
