@@ -1,11 +1,11 @@
 - name: easyTravel recovery action
   hosts: all
   tasks:
-    - name: Open
+    - name: easyTravel bad
       debug:
         msg: "easyTravel app problem detected, trying to recover!"
       when: status == "OPEN"
-    - name: Resolved
+    - name: easyTravel good
       debug:
         msg: "easyTravel app recovered"
       when: status == "RESOLVED"
