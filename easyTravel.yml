@@ -4,10 +4,10 @@
     - name: Open
       debug:
         msg: "easyTravel app problem detected, trying to recover!"
-      when: status == "OPEN"
+      #when: status == "OPEN"
     - name: Resolved
       debug:
         msg: "easyTravel app recovered"
-      when: status == "RESOLVED"
+      #when: status == "RESOLVED"
     - name: Check the date on the server.
       command: date
