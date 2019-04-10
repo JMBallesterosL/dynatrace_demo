@@ -1,5 +1,5 @@
 - name: easyTravel recovery action
-  hosts: 35.236.244.210:8079
+  hosts: all
   tasks:
     - name: easyTravel bad
       debug:
