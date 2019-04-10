@@ -1,5 +1,5 @@
 - name: easyTravel recovery action
-  hosts: localhost
+  hosts: 35.236.244.210:8079
   tasks:
     - name: easyTravel bad
       debug:
