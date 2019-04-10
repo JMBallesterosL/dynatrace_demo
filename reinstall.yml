@@ -1,5 +1,0 @@
----
-- hosts: all
-  roles:
-  - role: Dynatrace.OneAgent
-    oneagent_installer_script_url: https://grj60860.sprint.dynatracelabs.com/api/v1/deployment/installer/agent/unix/default/latest?Api-Token=oKwNvIskQaip5Dl6HVxU3&arch=x86&flavor=default
