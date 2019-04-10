@@ -1,8 +1,5 @@
 - name: easyTravel recovery action
-  hosts:
-    easytravel:
-      ansible_port: 8079
-      ansible_host: 35.236.244.210
+  hosts: all
   tasks:
     - name: easyTravel bad
       debug:
